@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joy50.donotask.Main5Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/wizi"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            app:srcCompat="@drawable/wizi"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <EditText
+            android:id="@+id/cradit"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Cradit"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <EditText
+            android:id="@+id/gpa"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="GPA"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="290dp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <Button
+            android:id="@+id/cheak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cheak My S.GPA"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="403dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
